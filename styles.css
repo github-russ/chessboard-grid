@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+    grid-template-areas: "head1 head2";
+    gap: 15px 10px;
+    justify-items: end;
+}
+
+.chessboard {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+
+.gray, .black {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
